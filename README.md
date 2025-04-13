@@ -16,7 +16,12 @@ Este sistema ha sido desarrollado en C y se ejecuta mediante la terminal de **Vi
 2. Abrir una terminal integrada (`Terminal > Nueva Terminal`).
 3. Compila el programa con el siguiente comando:
 
-Compila el programa con el siguiente comando: gcc tdas/*.c tarea1.c -Wno-unused-result -o tarea1
-Este comando básicamente genera un archivo ejecutable (tarea1) a partir de los códigos indicados.
-Luego, para ejecutar el código en consola: ./tarea1
-:
+```bash
+gcc tdas/*.c tarea1.c -Wno-unused-result -o tarea
+
+```
+Este comando compila los archivos .c de la carpeta tdas junto con tarea1.c (archivo principal), generando un ejecutable llamado tarea1.
+Luego, para ejecutar el código en consola:
+
+```bash
+./tarea1
