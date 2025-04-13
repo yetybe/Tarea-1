@@ -27,7 +27,8 @@ Luego, para ejecutar el código en consola:
 ./tarea1
 
 ```
-✅ Funcionalidades implementadas correctamente:
+#✅ Funcionalidades implementadas correctamente:
+
 Registrar ticket (Opción 1): Registra un nuevo ticket con prioridad "Bajo" por defecto.
 
 Asignar prioridad (Opción 2): Cambia la prioridad del ticket (Alto, Medio o Bajo) y actualiza la hora.
@@ -38,7 +39,8 @@ Atender al siguiente ticket (Opción 4): Atiende y elimina el ticket más urgent
 
 Buscar ticket por ID (Opción 5): Muestra los detalles de un ticket dado su ID.
 
-⚠️ Funcionalidades no implementadas o limitadas:
+#⚠️ Funcionalidades no implementadas o limitadas:
+
 Exportación e importación de tickets desde archivos (CSV o TXT): No implementado.
 
 Validación de duplicados en el ID de tickets: No incluida, se debe ingresar manualmente un ID único.
